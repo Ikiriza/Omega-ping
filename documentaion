@@ -1,0 +1,46 @@
+Introduction:
+Omega Ping is a social application that allows users to share content with their friends and family. The application has been developed using ReactJS, Bootstrap, and SCSS, and is designed to be used as a standalone front-end system.
+
+Features:
+The Omega Ping social app has the following features:
+
+2.1 User Authentication:
+Omega Ping requires users to sign in with their email address and password. Users can also create new accounts by clicking on the "Sign Up" button and providing their details.
+
+2.2 User Profile:
+Once a user has logged in, they can create a profile by adding their name, profile picture, and other personal details. Users can also edit their profiles later on.
+
+2.3 News Feed:
+The news feed displays all the posts made by the user's friends in chronological order. Users can scroll through the feed and view posts from the people they follow.
+
+2.4 Create Posts:
+Users can create posts by adding a title, description, and an image or video. They can also tag other users in their posts by using the "@" symbol followed by the username.
+
+2.5 Like and Comment:
+Users can like and comment on other users' posts. They can also view the number of likes and comments a post has received.
+
+2.6 Search:
+Users can search for other users by name. They can also view the profiles of the people they follow.
+
+2.7 Settings:
+Users can access the settings panel to edit their account details, such as email address and password. They can also manage their notifications and privacy settings.
+
+2.8 Mobile Responsive:
+The Omega Ping social app is designed to be mobile responsive, which means that users can access it from their mobile devices.
+
+Technical Details:
+
+3.1 Architecture:
+The Omega Ping social app is built using ReactJS, which is a popular JavaScript library for building user interfaces. The application has a single-page architecture, which means that all the components are rendered on the client-side.
+
+3.2 User Interface:
+The user interface of the Omega Ping social app is built using Bootstrap and SCSS. Bootstrap is a popular framework that provides pre-designed UI components, while SCSS is a CSS preprocessor that makes it easier to write CSS code.
+
+3.3 Data Management:
+The Omega Ping social app stores data in the browser's local storage. This means that users can access their data even when they are offline.
+
+3.4 Development Environment:
+The Omega Ping social app was developed using Visual Studio Code, which is a popular code editor. The code was version controlled using Git, and the project was hosted on GitHub.
+
+Conclusion:
+The Omega Ping social app is a user-friendly and intuitive application that allows users to share content with their friends and family. The application was built using ReactJS, Bootstrap, and SCSS, and is designed to be used as a standalone front-end system. With its features and technical details, the Omega Ping social app is a great project for computer science students to learn from and present to their professors.

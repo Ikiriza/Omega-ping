@@ -1,0 +1,128 @@
+.login {
+  background-image: linear-gradient(rgba(3, 2, 22, 0.477), rgba(3, 8, 54, 0.203)), url(../../assets/21.jpg);
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+
+  .card {
+    width: 70%;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    min-height: 600px;
+    overflow: hidden;
+
+    .left {
+      flex: 1;
+      background: linear-gradient(rgba(10, 1, 27, 0.645), rgba(11, 1, 31, 0.766)), url("../../assets/20.jpg") center;
+      background-size: cover;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      color: white;
+
+      
+
+      h1 {
+        font-size: 40px;
+        line-height: 45px;
+      }
+
+      p {}
+
+      span {
+        font-size: 14px;
+      }
+
+      button {
+        width: 50%;
+        padding: 10px;
+        border: none;
+        background-color: white;
+        color: rebeccapurple;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+
+    .right {
+      flex: 1;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      justify-content: center;
+
+      h1 {
+        color: #555;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        input {
+          border: none;
+          border-bottom: 1px solid lightgray;
+          padding: 20px 10px;
+          outline: transparent !important;
+        }
+
+        button {
+          width: 50%;
+          padding: 10px;
+          border: none;
+          background-color: #938eef;
+          color: white;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+/* Media queries for responsive design */
+
+@media screen and (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    min-height: 0;
+
+    .left {
+      padding: 20px;
+      text-align: center;
+      flex: initial;
+
+      h1 {
+        font-size: 30px;
+        line-height: 35px;
+      }
+
+      button {
+        width: 80%;
+      }
+    }
+
+    .right {
+      padding: 20px;
+      flex: initial;
+
+      form {
+        input {
+          font-size: 14px;
+        }
+
+        button {
+          width: 80%;
+        }
+      }
+    }
+  }
+}
